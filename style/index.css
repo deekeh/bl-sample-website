@@ -11,13 +11,39 @@ body, html {
 /* block coloring */
 .header, .footer {
   background-color: #9ACD32;
+  padding: 10px;
 }
 .article {
   background-color: #fff;
+  padding: 10px;
 }
 .aside {
   background-color: #F5F5DC;
+  padding: 10px;
 }
 .nav {
   background-color: #D7E8D4;
+  padding: 10px;
+}
+
+body {
+  display: flex;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.side {
+  flex-grow: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  flex-grow: 1;
+}
+
+.article {
+  flex-grow: 4;
 }

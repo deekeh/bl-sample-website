@@ -1,0 +1,23 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  min-height: 100vh;
+}
+
+/* block coloring */
+.header, .footer {
+  background-color: #9ACD32;
+}
+.article {
+  background-color: #fff;
+}
+.aside {
+  background-color: #F5F5DC;
+}
+.nav {
+  background-color: #D7E8D4;
+}
